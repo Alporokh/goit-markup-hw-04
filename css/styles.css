@@ -489,12 +489,9 @@ padding: 0 15px;
 }
 
 
+.social-link:hover,
 .social-link:focus {
-    background-color: #31d0aa;
-}
-
-.social-link:hover {
-    background-color: #4d5ae5;
+    background-color: #404bbf;
 }
 
 .social-link:hover .social-icon,
