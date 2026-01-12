@@ -44,8 +44,8 @@ a {
 
 .container { 
 max-width: 1158px;
-margin: 0 auto;
 padding: 0 15px;
+margin: 0 auto;
  }
 
 .page-header {
@@ -177,19 +177,19 @@ padding: 0 15px;
 
 
 .section-hero {
-   background-color: #2e2f42;
-   padding: 188px 0;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people_office.jpg');
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   max-width: 1440px;
-        }
+        background-color: #2e2f42;
+        min-height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/people_office.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+    }
+        
 
 .page-title {
     font-weight: 700;
@@ -426,10 +426,13 @@ padding: 0 15px;
 }
 
 .footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 24px;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 72px;
         }
 
 .footer-left {
@@ -504,6 +507,8 @@ padding: 0 15px;
     background-color: #404bbf;
 }
 
+.social-link:hover .icon,
+.social-link:focus .icon,
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
     fill: #ffffff;
@@ -552,6 +557,7 @@ padding: 0 15px;
  width: 40px;
  height: 40px;
    }
+
 .social-icon {
     width: 24px;
     height: 24px;
@@ -560,6 +566,11 @@ padding: 0 15px;
 
 .icon,
 .social-icon {
-    fill: #f4f4fd;
-        
+    transition: fill 250ms ease;
+
+}
+
+.icon svg {
+    width: 24px;
+    height: 24px;
 }
