@@ -337,8 +337,8 @@ padding: 0 15px;
     width: calc((100% - 72px) / 4);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: left;
+    text-align: left;
 }
 
 .title {
@@ -503,7 +503,7 @@ padding: 0 15px;
         border: 1px solid #8e8f99;
         margin-bottom: 8px;
     }
-}
+
 
 .icon-about {
     width: 64px;
