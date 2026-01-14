@@ -1,3 +1,13 @@
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --white: #ffffff;
+}
 
 *,
 *::before,
@@ -554,7 +564,7 @@ margin: 0 auto;
 
 .icon,
 .social-icon {
-    fill: #f4f4fd;
+    fill: var(--cloud);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
       }
 
@@ -572,5 +582,5 @@ margin: 0 auto;
  .social-link:focus .icon,
  .social-link:hover .social-icon,
  .social-link:focus .social-icon {
-     fill: #ffffff;
+    fill: var(--white);
  }
