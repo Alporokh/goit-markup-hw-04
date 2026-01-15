@@ -516,11 +516,7 @@ margin: 0 auto;
     color: var(--cloud);
    }
 
-   .social-link:hover,
-   .social-link:focus {
-       color: var(--white);
-   }
-
+  
 .social-link:hover,
 .social-link:focus {
     background-color: var(--ocean);
