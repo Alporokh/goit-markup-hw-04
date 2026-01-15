@@ -588,3 +588,8 @@ margin: 0 auto;
      background-color: var(--ocean);
      color: var(--white);
  }
+
+ .team-social-list .social-link:focus {
+     background-color: var(--ocean);
+     color: var(--white);
+ }
